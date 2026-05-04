@@ -1,29 +1,26 @@
-# simple-interest-calculator
+# Simple Interest Calculator
 
-Contributing to Simple Interest Calculator
-All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
+A simple bash script that calculates simple interest given principal, annual rate of interest and time period in years.
 
-How to Contribute
-Reporting Bugs: If you find a mistake in the calculation logic or the script execution, please open an "Issue" on GitHub with a description of the error.
+## Formula
+The formula used for simple interest calculation is:
+**SI = P * T * R / 100**
 
-Bug Fixes: Fork the repository, create a new branch for your fix, and submit a Pull Request.
+Where:
+* **P** = Principal amount
+* **T** = Time period in years
+* **R** = Annual rate of interest
 
-Documentation: Improvements to the README or other markdown files are highly encouraged to help new users.
+## Input:
+* `p`, principal amount
+* `t`, time period in years
+* `r`, annual rate of interest
 
-Enhancements: If you have ideas for new features (like compound interest or total balance calculations), feel free to propose them via an Issue or submit the code directly.
+## Output:
+* `simple interest = p*t*r`
 
-Guidelines
-Please ensure your bash scripts are commented and follow basic clean-coding standards.
-
-Use descriptive commit messages (e.g., fix: corrected decimal math in interest logic).
-
-How to update the file if it's empty:
-Go to your simple-interest-calculator repo.
-
-Click CONTRIBUTING.md.
-
-Click the pencil icon (Edit this file) in the top right.
-
-Paste the text above.
-
-Scroll down and click Commit changes.
+## Usage:
+1. Run the script: `bash simple_interest.sh`
+2. Enter the principal amount when prompted.
+3. Enter the interest rate when prompted.
+4. Enter the time period in years when prompted.
